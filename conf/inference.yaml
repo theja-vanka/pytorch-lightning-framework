@@ -1,0 +1,11 @@
+trainer: trainer.yaml
+model: models/model_4c.yaml
+data:
+  config:
+    batch_size: 256
+    file_column: image_key
+    label_column: multi_label
+    root_path: /mnt/home/dev/usr/ebs_sv_old/usr/nikhil/data/dataset_20241110
+    train_df: /mnt/home/dev/usr/tffc-vol-2/krishnatheja/road_visibility_multi_label/lightning_classifier/data/train/testing_Feb_05_train.csv
+    val_df: /mnt/home/dev/usr/tffc-vol-2/krishnatheja/road_visibility_multi_label/lightning_classifier/data/val/testing_Feb_05_val.csv
+    test_df: /mnt/home/dev/usr/tffc-vol-2/krishnatheja/road_visibility_multi_label/lightning_classifier/data/test/testing_Feb_05_test.csv

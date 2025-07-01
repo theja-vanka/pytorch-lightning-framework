@@ -1,0 +1,4 @@
+config:
+  classes: 4
+  labels: ['HIGH_VISIBILITY', 'CRITICAL_FOG', 'WINDSHIELD_OBSTRUCTION', 'LOW_VISIBILITY']
+  name: 'test_model_4c'
